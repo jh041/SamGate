@@ -21,3 +21,6 @@ The result is a MegaSat formated file with the primers, motif and flanking regio
 
 Locus-Name	no_tail_left	Rev_Comp_of_no_tail_Right	ThreeFlank	FiveFlank	Repeat
 46	ACCAACCTCAGTCATCAGGC	CATCTGCTTCCTGACTCCCA	ATTATTAAACTCAC	AGTATTGGTTCTGTTTTCATGTTTAGACGCTTCTCTTGATTTGTAA	ATC
+
+Note: sometimes it is useful to concatenate MsatCommander output files before running SamGate. If you do this you will need to remove all
+header lines before hand... in fact, I recommend removing all header and subheader lines before running SamGate, regardless. 
