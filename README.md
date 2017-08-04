@@ -26,3 +26,5 @@ Note: sometimes it is useful to concatenate MsatCommander output files before ru
 header lines before hand... in fact, I recommend removing all header and subheader lines before running SamGate, regardless.
 
 Note: this script was written to work with the MsatCommander version for mac osx. If you are running on a different platform your output files might have different column numbers, or so I am told. This is easy to fix in the python script. Comment lines will direct you to the indices that you will need to change to conform the script to the column organization of your output. 
+
+(see also https://johnbhorne.wordpress.com/2016/07/28/why-microsatellite-loci-are-still-cool-free-python-script-at-the-end/)
