@@ -23,4 +23,6 @@ Locus-Name	no_tail_left	Rev_Comp_of_no_tail_Right	ThreeFlank	FiveFlank	Repeat
 46	ACCAACCTCAGTCATCAGGC	CATCTGCTTCCTGACTCCCA	ATTATTAAACTCAC	AGTATTGGTTCTGTTTTCATGTTTAGACGCTTCTCTTGATTTGTAA	ATC
 
 Note: sometimes it is useful to concatenate MsatCommander output files before running SamGate. If you do this you will need to remove all
-header lines before hand... in fact, I recommend removing all header and subheader lines before running SamGate, regardless. 
+header lines before hand... in fact, I recommend removing all header and subheader lines before running SamGate, regardless.
+
+Note: this script was written to work with the MsatCommander version for mac osx. If you are running on a different platform your output files might have different column numbers, or so I am told. This is easy to fix in the python script. Comment lines will direct you to the indices that you will need to change to conform the script to the column organization of your output. 
