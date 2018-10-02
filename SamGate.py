@@ -121,7 +121,7 @@ for lineA,lineB in zip(new_msats_file,new_primer_file):
 #######################print gates into a tab delimited text file#########################
 
 with open('MegaSat_primer.txt', mode = 'w') as file:
-	file.write("Locus-Name\tno_tail_left\tRev_Comp_of_no_tail_Right\tThreeFlank\tFiveFlank\tRepeat\n")
+	file.write("Name\tleft_oligo\tRev_Comp_right_oligo\t3Flank\t5Flank\tRepeat\n")
 	for gate in gates:
 		file.write("%s\t%s\t%s\t%s\t%s\t%s\n" % (gate.id, gate.left, gate.right, gate.three, gate.five, gate.repeat))
 		
